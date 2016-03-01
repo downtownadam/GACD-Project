@@ -52,8 +52,8 @@ x_train$subject <- subject_train$subject
 x_test$ActivityCode <- y_test$ActivityCode
 x_test$subject <- subject_test$subject
 
+#Combine Data
 combined_data <- rbind(x_train,x_test)
-names(combined_data)[66]
 
 #Create Averages by Subject and Activity
 combined_data %>% 

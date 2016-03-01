@@ -8,13 +8,13 @@ Combination of training and test datasets, but only includes columns correspondi
 Data frame of the average of each of the numeric fields in combined_data by subject and activity
 
 ##Process:
-Create table of Activity Types
-Create table of table features (row headings)
-Load X_TRAIN.TXT, Y_TRAIN.TXT, SUBJECT_TRAIN.TXT, X_TEST.TXT, Y_test.TXT, SUBJECT_TEST.TXT
-Assemble Training Set - Combining the three TRAIN files
-Assemble Test set - Combining the three TEST files
-Combine Data - Stack Training Set and Test Set
-Create Averages by Subject and Activity
+#Create table of Activity Types
+#Create table of table features (row headings)
+#Load X_TRAIN.TXT, Y_TRAIN.TXT, SUBJECT_TRAIN.TXT, X_TEST.TXT, Y_test.TXT, SUBJECT_TEST.TXT
+#Assemble Training Set - Combining the three TRAIN files
+#Assemble Test set - Combining the three TEST files
+#Combine Data - Stack Training Set and Test Set
+#Create Averages by Subject and Activity
 
 
 #Makes use of the Following Files:

@@ -1,9 +1,15 @@
 # GACD-Project
 Getting and Cleaning Data - Project
 
+##Output:
+###combined_data
+Combination of training and test datasets, but only includes columns corresponding to mean and standard deviation values.
+###dfAverages
+Data frame of the average of each of the numeric fields in combined_data by subject and activity
 
 
-#Makes use of the Following Files
+
+#Makes use of the Following Files:
 ##activity_labels.txt
 Codes for the 6 Activity Types
 
